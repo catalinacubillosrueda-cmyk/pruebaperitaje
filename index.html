@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Peritaje Automotriz PRO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Sistema de Peritaje Automotriz - PeritoExpert</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <!-- Librería para gráficas profesionales -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
 <body>
@@ -60,8 +61,8 @@
             <div class="form-section" id="section-3">
                 <h2>Valores Comerciales</h2>
                 <div class="form-group"><label for="marketValue">Revista motor:</label><input type="text" id="marketValue" placeholder="Valor en pesos" required><div class="validation-error" id="marketValueError">Este campo es obligatorio</div></div>
-                <div class="form-group"><label for="fasecoldaValue">Facecolda:</label><input type="text" id="fasecoldaValue" placeholder="Valor en pesos" required><div class="validation-error" id="fasecoldaValueError">Este campo es obligatorio</div></div>
-                <div class="form-group"><label for="expertValue">Peritoexpert.com:</label><input type="text" id="expertValue" placeholder="Valor en pesos" required><div class="validation-error" id="expertValueError">Este campo es obligatorio</div></div>
+                <div class="form-group"><label for="fasecoldaValue">Fasecolda:</label><input type="text" id="fasecoldaValue" placeholder="Valor en pesos" required><div class="validation-error" id="fasecoldaValueError">Este campo es obligatorio</div></div>
+                <div class="form-group"><label for="expertValue">PeritoExpert:</label><input type="text" id="expertValue" placeholder="Valor en pesos" required><div class="validation-error" id="expertValueError">Este campo es obligatorio</div></div>
                 <div class="form-group"><label for="accessoriesValue">Accesorios:</label><input type="text" id="accessoriesValue" placeholder="Valor en pesos"></div>
                 <div class="navigation"><button type="button" class="btn btn-secondary" onclick="nextSection(2)">Anterior</button><button type="button" class="btn" onclick="validateSection(3)">Siguiente</button></div>
             </div>
